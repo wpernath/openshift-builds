@@ -58,6 +58,7 @@ public class HelloWorldServlet extends HttpServlet {
         writer.println("<h1>" + helloService.createHelloMessage("World") + "</h1>");
         writer.println(PAGE_FOOTER);
         writer.close();
+        System.out.println("  Hello World");
     }
 
 }
